@@ -3,8 +3,10 @@ package com.training.platform.services;
 
 import com.training.platform.entities.User;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 public interface UserService {
@@ -29,4 +31,10 @@ public interface UserService {
     List<User> findByCityIn(List<String> city);
 
     List<User> findByEmailIn(List<String> email);
+
+    Page<User> findAll(PageRequest pageRequest);
+
+    Map<String,String> getCities();
+
+    User save(Map<String,String> inputs) throws Exception;
 }

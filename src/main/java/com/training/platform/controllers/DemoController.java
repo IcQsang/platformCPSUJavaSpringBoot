@@ -1,5 +1,5 @@
-package com.training.platform.controllers;
-
+//package com.training.platform.controllers;
+/*
 import com.training.platform.entities.User;
 import com.training.platform.repositories.UserRepository;
 import com.training.platform.services.UserService;
@@ -117,4 +117,4 @@ public class DemoController {
     }
 
 */
-}
+//}

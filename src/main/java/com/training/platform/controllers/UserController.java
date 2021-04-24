@@ -1,3 +1,4 @@
+/*
 package com.training.platform.controllers;
 
 import com.training.platform.entities.User;
@@ -13,6 +14,7 @@ import java.util.*;
 @RestController
 @RequestMapping("/user")
 public class UserController {
+
     @Autowired
     private UserService userService;
 
@@ -69,3 +71,4 @@ public class UserController {
         return userService.findByEmailIn(email);
     }
 }
+*/
