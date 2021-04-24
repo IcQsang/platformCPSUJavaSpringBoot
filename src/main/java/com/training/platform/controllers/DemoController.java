@@ -14,7 +14,7 @@ import java.util.*;
 @RequestMapping("/demo")
 public class DemoController {
 
-
+/*
     @Autowired
     private UserRepository userRepository;
     /*
@@ -25,6 +25,7 @@ public class DemoController {
         System.out.println(users);
         return users;
     }*/
+    /*
     @GetMapping(value = "/{id}")
     public String showWithPath(@PathVariable String id) {
         Optional<User> user = userRepository.findById(Integer.parseInt(id));
@@ -39,7 +40,7 @@ public class DemoController {
         List<User> users = userRepository.findByCityAndActiveAndAge("nakornpathom", 1, 18);
         return users;
     }*/
-
+/*
     @GetMapping(value = "")
     public List<User> index() {
         List<Integer> ages = new ArrayList<Integer>(Arrays.asList(18, 19, 22) );
